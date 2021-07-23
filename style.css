@@ -1,0 +1,173 @@
+body
+{
+
+    margin:0px;
+    padding:0px;
+    background: url('background-cover.jpg') no-repeat center center/cover;
+    height:100vh;
+}
+
+.header__left {
+
+    display: inline;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+.header__left--img {
+    height: 55px;
+    width:200px;
+
+
+}
+
+.header__mid {
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.header__mid--navbar {
+    display: inline-block;
+
+}
+
+.header__mid--navbar li {
+    display: inline-block;
+    font-size: 18px;
+    left: 50px;
+    font-weight: bold;
+
+}
+
+.header__mid--navbar li a {
+    color: rgb(237, 27, 35);
+
+    text-decoration: none;
+    padding: 34px 23px;
+
+
+
+
+}
+
+.header__mid--navbar li a:hover,
+.header__mid--navbar li a.active {
+    text-decoration: underline;
+    color: black;
+
+}
+
+.header__right {
+    position: absolute;
+    display: inline-block;
+    right: 34px;
+    top: 20px;
+}
+
+.header__right--btn {
+    margin: 5px 9px;
+    color: white;
+    background-color: black;
+    padding: 0px 6px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 4px solid grey;
+
+}
+
+.header__right--btn:hover {
+    background-color: rgb(237, 27, 35);
+}
+
+.container__mid
+{
+    display: block;
+    width:500px;
+    margin:110px auto;
+    font-size:22px;
+    
+}
+
+.container__mid--img
+{
+        height: 50px;
+      
+}
+
+
+
+.container__btn-default
+{
+    font-size: 18px;
+    border:4px solid grey;
+    border-radius: 8px;
+}
+
+
+.rblock{
+
+    height:400px;
+    width:80%;
+  
+    display:flex;
+    flex-direction:column;
+    margin:150px;
+    
+    
+}
+
+.rblock__items
+{
+    width:90%;
+    height:150px;
+    background-color:white;
+    
+    margin:10px;
+    padding:3px;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.rblock__items--left
+{
+    float:left;
+    height:70px;
+
+}
+
+.rblock__items--midleft
+{
+    
+    margin:25px 0 0 130px;
+}
+
+.rblock__items--midright
+{
+    margin-left:300px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.container {
+
+    text-align: center;
+
+}
+
+.jumbotron {
+    padding-top: 2px;
+
+    text-align: center;
+    margin: 200px 0 0 20px;
+    height: 150px;
+    width: 70%;
+}
+
+
+
+ 
